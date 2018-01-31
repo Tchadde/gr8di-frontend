@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { FootBarComponent } from './foot-bar/foot-bar.component';
+import { HeadBarComponent } from './head-bar/head-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FootBarComponent
+    FootBarComponent,
+    HeadBarComponent
   ],
   imports: [
     BrowserModule
