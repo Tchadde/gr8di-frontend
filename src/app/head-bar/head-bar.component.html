@@ -8,20 +8,20 @@
               <span class="icon-bar bar2"></span>
               <span class="icon-bar bar3"></span>
           </button>
-          <a href="#" class="navbar-brand">
+          <a [routerLink]="['/home']" class="navbar-brand">
               GR8DI
           </a>
       </div>
       <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right navbar-uppercase">
             <li>
-                <a href="#">Projects</a>
+                <a [routerLink]="['/projects']">Projects</a>
             </li>
             <li>
-                <a href="#">Jobs</a>
+                <a [routerLink]="['/jobs']">Jobs</a>
             </li>
             <li>
-                <a href="#">Contact Us</a>
+                <a [routerLink]="['/contact']">Contact Us</a>
             </li>
             <li>
                 <a href="#" class="btn btn-warning btn-fill">Donate</a>
