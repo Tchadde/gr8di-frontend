@@ -9,6 +9,8 @@ import { ProjectsComponent } from './projects/projects.component';
 import { HomeComponent } from './home/home.component';
 import { JobsComponent } from './jobs/jobs.component';
 import { ContactComponent } from './contact/contact.component';
+import { ErrorComponent } from './error/error.component';
+
 
 const routes: Routes = [
   // basic routes
@@ -16,7 +18,8 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'projects', component: ProjectsComponent },
   { path: 'jobs', component: JobsComponent },
-  { path: 'contact', component: ContactComponent }
+  { path: 'contact', component: ContactComponent },
+  { path: 'error', component: ErrorComponent }
 ];
 
 @NgModule({
@@ -27,7 +30,8 @@ const routes: Routes = [
     ProjectsComponent,
     HomeComponent,
     JobsComponent,
-    ContactComponent
+    ContactComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
