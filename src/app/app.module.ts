@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { JobsComponent } from './jobs/jobs.component';
 import { ContactComponent } from './contact/contact.component';
 import { ErrorComponent } from './error/error.component';
+import { PolicyComponent } from './policy/policy.component';
 
 
 const routes: Routes = [
@@ -31,7 +32,8 @@ const routes: Routes = [
     HomeComponent,
     JobsComponent,
     ContactComponent,
-    ErrorComponent
+    ErrorComponent,
+    PolicyComponent
   ],
   imports: [
     BrowserModule,
