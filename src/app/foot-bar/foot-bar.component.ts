@@ -8,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FootBarComponent implements OnInit {
 
+   nYear = new Date().getFullYear();
+
+
   //tweets : string[];
 
   constructor() { }
@@ -28,3 +31,5 @@ export class FootBarComponent implements OnInit {
   }
 
 }
+
+

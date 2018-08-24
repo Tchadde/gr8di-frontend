@@ -1,0 +1,167 @@
+[33mcommit fab786aca04378241b991d46a0f8547585d81871[m
+Author: Debenick <debenick17@gmail.com>
+Date:   Fri Aug 17 14:43:44 2018 +0100
+
+    Tchadde and Debenick | Added a component for the error page
+
+[33mcommit 994046c178b3a3a329810d1be92e8d2290007314[m
+Author: Fosso Arcel <kraulain@gmail.com>
+Date:   Tue Aug 7 12:48:38 2018 +0100
+
+    Fosso | remove checkbox from jobs form
+
+[33mcommit e0844b52237d5265b27929ecf74361603a6d7015[m
+Author: Fosso Arcel <kraulain@gmail.com>
+Date:   Tue Aug 7 12:11:41 2018 +0100
+
+    Fosso | add temporary content for tweets
+
+[33mcommit 97c49c1ba328460e9a1552b828544b3397c6ff52[m
+Author: Fosso Arcel <kraulain@gmail.com>
+Date:   Tue Aug 7 11:52:33 2018 +0100
+
+    Fosso | add paypal payment button
+
+[33mcommit cbca389bd0ab5ca85ddff28439ed409d1d8e06f2[m
+Author: Fosso Arcel <kraulain@gmail.com>
+Date:   Tue Aug 7 07:50:42 2018 +0100
+
+    Fosso | Improve jobs form
+
+[33mcommit e756f1771c080fdea1dfaadf47cc85d14fffa97c[m
+Author: Fosso Arcel <kraulain@gmail.com>
+Date:   Tue Aug 7 06:45:09 2018 +0100
+
+    Fosso | Add full names and twitter handles
+
+[33mcommit 2d2dbef0021a39db40319c1db168bbaaa95eb634[m
+Author: Fosso Arcel <kraulain@gmail.com>
+Date:   Tue Aug 7 06:06:41 2018 +0100
+
+    Fosso
+
+[33mcommit f30cfc79fe4698dd0c73e6675199d2a1562eab83[m
+Author: Fosso Arcel <kraulain@gmail.com>
+Date:   Tue Jul 31 20:06:57 2018 +0100
+
+    Fosso | update project to angular 6
+
+[33mcommit 81d4e544000e09963ff699368d167b6893196773[m
+Author: kraulain <fosso@afgrey.com>
+Date:   Sat Apr 7 10:42:37 2018 +0100
+
+    Fosso | add navlinks to footer
+
+[33mcommit 79fc3b1b4f52fbe8de2fcbbf41a827db8284b2c6[m
+Author: kraulain <fosso@afgrey.com>
+Date:   Sat Apr 7 09:51:28 2018 +0100
+
+    Fosso | add kraulain picture to team section
+
+[33mcommit f9e5ae8531ce4c8864d22da9e879de2d693c2c3f[m
+Author: Jennifer Strater <jlstrater@users.noreply.github.com>
+Date:   Fri Apr 6 22:36:13 2018 +0200
+
+    add some links and assets
+
+[33mcommit 52c7e11fc02331bbd13e1683d9e2e86ca2f43735[m
+Author: kraulain <fosso@afgrey.com>
+Date:   Thu Apr 5 23:09:21 2018 +0100
+
+    Fosso | added favicon and project links
+
+[33mcommit e47816d6321a355ce05dcd5f1215025960d503be[m
+Author: kraulain <fosso@afgrey.com>
+Date:   Thu Apr 5 21:59:03 2018 +0100
+
+    Fosso | added content for contact page
+
+[33mcommit d42eb2447b1da6c6737cdb76ce1af70db75fc28e[m
+Author: kraulain <fosso@afgrey.com>
+Date:   Thu Apr 5 21:35:45 2018 +0100
+
+    Fosso | added content for Jobs page
+
+[33mcommit 0a764655164058653767b610afd59530f093ab11[m
+Author: kraulain <fosso@afgrey.com>
+Date:   Thu Apr 5 20:51:59 2018 +0100
+
+    Fosso | added routing
+
+[33mcommit 69fe00ec6819987b306ebd08f84126b918a7ba97[m
+Author: kraulain <fosso@afgrey.com>
+Date:   Mon Feb 5 23:05:10 2018 +0100
+
+     Fosso | added content for projects page
+
+[33mcommit 5374a7d24b4fbbfc893c4cafdd8d1cdc067fc59c[m
+Author: kraulain <fosso@afgrey.com>
+Date:   Mon Feb 5 20:31:41 2018 +0100
+
+     Fosso | updated icons on home page
+
+[33mcommit d3eb72d8902ca72e646906c37f1562954abfa27a[m
+Author: kraulain <fosso@afgrey.com>
+Date:   Mon Feb 5 20:16:27 2018 +0100
+
+     Fosso | changed theme to green
+
+[33mcommit 62975a261174cd83cc0ef244e981b56429b5db1d[m
+Author: kraulain <fosso@afgrey.com>
+Date:   Mon Feb 5 20:01:58 2018 +0100
+
+     Fosso | add team section to home page
+
+[33mcommit 0e33221fcf0df00b3cb2053dd15eddc76ba20963[m
+Author: kraulain <fosso@afgrey.com>
+Date:   Wed Jan 31 11:18:18 2018 +0100
+
+     Fosso | add home page content
+
+[33mcommit bf9a2373c0a479e360c87ae875948afb3c0fdf68[m
+Author: kraulain <fosso@afgrey.com>
+Date:   Wed Jan 31 10:54:49 2018 +0100
+
+     Fosso | added basic navigation structure
+
+[33mcommit f9579cbbdd14a844f1748dfca0efa0cadc28b9ba[m
+Author: kraulain <fosso@afgrey.com>
+Date:   Wed Jan 31 10:47:01 2018 +0100
+
+     Fosso | copied content for nav into head-bar component
+
+[33mcommit fc058c6de24715b1b0d79b5fb4ffc204140ed455[m
+Author: kraulain <fosso@afgrey.com>
+Date:   Wed Jan 31 10:45:11 2018 +0100
+
+     Fosso | created temporal component for navigation
+
+[33mcommit 1c34afed40e5a5a2843efb240e9c21b99d769345[m
+Author: kraulain <fosso@afgrey.com>
+Date:   Wed Jan 31 10:43:44 2018 +0100
+
+     Fosso | copied content for footer into its component
+
+[33mcommit be1909dc6de4d79dd1d40d0034999ca5da974c80[m
+Author: kraulain <fosso@afgrey.com>
+Date:   Wed Jan 31 10:41:24 2018 +0100
+
+     Fosso | create footer component
+
+[33mcommit dc444b7cb1efb402561c6b640d90ff805ed5c230[m
+Author: kraulain <fosso@afgrey.com>
+Date:   Wed Jan 31 10:40:49 2018 +0100
+
+     Fosso | added initial structure for landing page
+
+[33mcommit 67216ecf497a9bc264d8222ce4a3066f876a00cc[m
+Author: kraulain <fosso@afgrey.com>
+Date:   Sat Jan 13 15:01:21 2018 +0100
+
+    Fosso | Added initial style and assets based on creative-tim template
+
+[33mcommit 5b0a22d311e8e4aae5f17a0ea1fae3f70b2b7d9e[m
+Author: Angular CLI <angular-cli@angular.io>
+Date:   Thu Jan 11 12:59:34 2018 +0100
+
+    chore: initial commit from @angular/cli
