@@ -18,6 +18,8 @@ import { MentorshipComponent } from './mentorship/mentorship.component';
 import { MentorComponent } from './mentor/mentor.component';
 import { Mentorpage1Component } from './mentorpage1/mentorpage1.component';
 import { Mentorpage2Component } from './mentorpage2/mentorpage2.component';
+import { MenteeComponent } from './mentee/mentee.component';
+import { MenteeinfoComponent } from './mentee-info/mentee-info.component';
 
 
 const routes: Routes = [
@@ -32,6 +34,8 @@ const routes: Routes = [
   { path: 'mentor',component: MentorComponent},
   { path: 'mentorpage1',component: Mentorpage1Component},
   { path: 'mentorpage2',component: Mentorpage2Component},
+  { path: 'mentee',component: MenteeComponent},
+  { path: 'mentee-info',component: MenteeinfoComponent},
   { path: '**', component: ErrorComponent }
 ]
 @NgModule({
@@ -48,7 +52,9 @@ const routes: Routes = [
     MentorshipComponent,
     MentorComponent,
     Mentorpage1Component,
-    Mentorpage2Component
+    Mentorpage2Component,
+    MenteeComponent,
+    MenteeinfoComponent
   ],
   imports: [
     BrowserModule,
