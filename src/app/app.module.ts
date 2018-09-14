@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { FormsModule,} from '@angular/forms' 
+
 
 import { AppComponent } from './app.component';
 import { FootBarComponent } from './foot-bar/foot-bar.component';
@@ -12,6 +14,10 @@ import { ContactComponent } from './contact/contact.component';
 import { ErrorComponent } from './error/error.component';
 import { PolicyComponent } from './policy/policy.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { MentorshipComponent } from './mentorship/mentorship.component';
+import { MentorComponent } from './mentor/mentor.component';
+import { Mentorpage1Component } from './mentorpage1/mentorpage1.component';
+import { Mentorpage2Component } from './mentorpage2/mentorpage2.component';
 
 
 const routes: Routes = [
@@ -22,9 +28,12 @@ const routes: Routes = [
   { path: 'jobs', component: JobsComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'policy', component: PolicyComponent },
+  { path: 'mentorship',component: MentorshipComponent},
+  { path: 'mentor',component: MentorComponent},
+  { path: 'mentorpage1',component: Mentorpage1Component},
+  { path: 'mentorpage2',component: Mentorpage2Component},
   { path: '**', component: ErrorComponent }
-];
-
+]
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,10 +44,15 @@ const routes: Routes = [
     JobsComponent,
     ContactComponent,
     ErrorComponent,
-    PolicyComponent
+    PolicyComponent,
+    MentorshipComponent,
+    MentorComponent,
+    Mentorpage1Component,
+    Mentorpage2Component
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     RouterModule.forRoot(routes)
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
